@@ -16,22 +16,25 @@ html {
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--light-gray);
-    overflow: hidden;
 }
 .wrapper {
-    max-width: 300px;
-    margin: 110px auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .div__container {
+    max-width: 320px;
     height: 500px;
     background-color: var(--white);
     border-radius: 15px;
     padding: 15px;
-    box-shadow: -1px 4px 14px -4px var(--grayish-blue);
+    box-shadow: 2px 2px 23px 4px rgba(0,0,0,0.08);
 }
 .qr__container {
     width: 100%;
-    height: 70%;
+    height: 60%;
 }
 .qr__container .img__container {
     width: 100%;
@@ -45,10 +48,9 @@ body {
     text-align: center;
 }
 .texts__container h1 {
-    font-size: 1.9rem;
-    letter-spacing: 0.1rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    margin-top: 0.7rem;
+    margin-top: 1.6rem;
     padding: 0.7rem;
     color: var(--dark-blue);
 }
@@ -60,9 +62,9 @@ body {
     color: var(--grayish-blue);
 }
 .attribution {
-    padding: 20px;
-    text-align: center;
+    padding: 0.3rem;
 }
 .attribution a {
     text-decoration: none;
+    color: var(--grayish-blue);
 }
