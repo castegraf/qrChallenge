@@ -40,7 +40,6 @@ body {
 .qr__container .img__container {
     width: 100%;
     height: 100%;
-    background-image: url('../images/image-qr-code.png');
     border-radius: 10px;
     background-position: center;
     background-size: cover;
