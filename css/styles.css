@@ -16,6 +16,7 @@ html {
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--light-gray);
+    overflow: hidden;
 }
 .wrapper {
     display: flex;
